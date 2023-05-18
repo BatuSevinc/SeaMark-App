@@ -1,0 +1,147 @@
+.navbarAll{
+    position: relative;
+    max-width: 1024px;
+}
+.navbarAll>button{
+    position: absolute;
+    left: -70px;
+    z-index: 100000;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.navbarClickMenu{
+    width: 400px !important;
+    background: wheat;
+    position: absolute;
+    z-index: 10000;
+    left: -76px;
+    top: -16px;
+
+}
+.navbarClickMenu>button{
+    padding: 2rem;
+    margin-right: 40px;
+    background-color: white;
+    border: 1px solid rgb(192, 187, 187);
+    text-align: start;
+    font-size: 18px;
+}
+.navbarClickMenu>button:hover{
+    color: wheat;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/720/488/desktop-wallpaper-2560x1600-bubbles-rainbow-glass-widescreen-16-rainbow-glass.jpg');
+}
+.navbarLine{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    top: 15px;
+    left: 30px;
+    background-color: black;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.navbarLine2{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    top: 22px;
+    left: 30px;
+    background-color: black;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.nav{
+    z-index: 2000 !important;
+}
+.navbarLink{
+    letter-spacing: 0.2rem;
+}
+.navbarLink:hover{
+    border-radius: 5px;
+    width: auto;
+    background-color: rgb(224, 221, 221);
+}
+.navbarDropdown>span{
+    font-size: 14px;
+}
+.dropdownMenu{
+    width: 500px;
+    position: relative;
+}
+.text-with-line{
+    font-size: 12px;
+    font-weight: 500px;
+    letter-spacing: 0.1rem;
+}
+.line-with-text{
+    content: "";
+    display: block;
+    width: 65%;
+    height: 1px;
+    right: 30px;
+    top: 18px;
+    background-color: rgb(192, 187, 187);
+    margin-bottom: 10px;
+    position: absolute;
+}
+.dropdownInfo>section{
+    position: relative;
+    overflow: hidden;
+
+}
+.section1:hover{
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    transform: scale(1.03);
+    background-image: url('https://www.istanbulegitimler.com/wp-content/uploads/2019/09/y%C3%B6netim-dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1.jpg');
+}
+.section2:hover{
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    transform: scale(1.03);
+    background-image: url('https://www.istanbulegitimler.com/wp-content/uploads/2019/09/y%C3%B6netim-dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1.jpg');
+}
+.section3:hover{
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    transform: scale(1.03);
+    background-image: url('https://www.istanbulegitimler.com/wp-content/uploads/2019/09/y%C3%B6netim-dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1.jpg');
+}
+.section4:hover{
+    cursor: pointer;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    transform: scale(1.03);
+    background-image: url('https://www.istanbulegitimler.com/wp-content/uploads/2019/09/y%C3%B6netim-dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1.jpg');
+}
+
+@media only screen and (max-width: 600px){
+
+    .navbars{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .dropdownMenu{
+        width: 400px;
+    }
+    .line-with-text{
+        width: 58%;
+    }
+}

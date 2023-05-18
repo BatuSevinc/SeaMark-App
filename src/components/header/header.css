@@ -1,0 +1,30 @@
+.headerContainer{
+    height: 100%;
+}
+
+.header>div>.subtitle{
+    font-size: 12px;
+    letter-spacing: 0.13rem;
+}
+.header>div>.title{
+    font-weight: 600;
+}
+.header>div>.desc{
+    font-size: 18px;
+}
+.headerImg>img{
+    width: 100%;
+    border-radius: 5px;
+}
+.sectionContainer{
+    position: relative;
+}
+.sectionContainer>.line-with-text{
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    top: 60px;
+    background-color: rgb(192, 187, 187);
+    position: absolute;
+}

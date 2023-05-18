@@ -1,0 +1,13 @@
+
+.bg-gray{
+    background-color: #eff0f4 !important;
+}
+.infoLeftSubtitle{
+    font-size: 14px;
+    letter-spacing: 0.21rem;
+    color: rgb(140, 136, 136);
+}
+.infoLeftButton{
+    letter-spacing: 0.12rem;
+
+}
